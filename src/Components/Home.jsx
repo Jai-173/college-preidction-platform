@@ -11,7 +11,7 @@ function Home() {
       <NavBar />
       <div className="flex justify-center items-center flex-col h-screen bg-cover bg-center" style={{ backgroundImage: "url('/assets/main-bg.jpg')" }}>
         <div className="flex justify-center items-center flex-col text-[#FEFBF3]">
-          <h1 className="p-1 text-[60px] font-libre tracking-tight">Choose the Best College</h1>
+          <h1 className="p-1 text-[60px] font-libre tracking-tight text-[#7ab5b8]">Choose the Best College</h1>
           <h1 className="text-[60px] font-libre tracking-tight">for your Future</h1>
           <h3 className="p-1 text-[24px] font-normal tracking-wider">Find your preferred college</h3>
           <button 
