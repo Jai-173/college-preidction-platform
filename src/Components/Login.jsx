@@ -20,7 +20,6 @@ function Login() {
       <div className="flex justify-center items-center min-h-screen bg-gray-800 h-screen bg-cover bg-center" style={{ backgroundImage: "url('/assets/login-bg.png')" }}>
         <div className="relative w-[768px] max-w-full min-h-[480px] bg-[#FEFBF3] rounded-[30px] shadow-lg overflow-hidden">
 
-          {/* Register Form */}
           <div
             className={`absolute top-0 h-full w-1/2 transition-all duration-[0.6s] transform ${
               isRegisterActive ? 'translate-x-full opacity-100 z-20' : 'opacity-0 z-10 pointer-events-none'
@@ -43,7 +42,6 @@ function Login() {
             </form>
           </div>
 
-          {/* Login Form */}
           <div
             className={`absolute top-0 left-0 h-full w-1/2 transition-all duration-[0.6s] transform ${
               isRegisterActive ? 'translate-x-full opacity-0 z-10 pointer-events-none' : 'opacity-100 z-20'
@@ -66,7 +64,6 @@ function Login() {
             </form>
           </div>
 
-          {/* Toggle between Register and Login */}
           <div className={`absolute top-0 left-1/2 h-full w-1/2 bg-[#7ab5b8] text-[#FEFBF3] flex justify-center items-center transition-all duration-[0.6s] transform ${
               isRegisterActive ? 'translate-x-[-100%]' : 'translate-x-0'
             }`}>

@@ -27,12 +27,6 @@ function NavBar() {
           About Us
         </a>
       </div>
-      <button
-        className="bg-[#7ab5b8] text-[#FEFBF3] p-2 rounded transition-all duration-[0.6s] ease-in-out hover:bg-[#FEFBF3] hover:text-[#7ab5b8]"
-        onClick={handleLogin}
-      >
-        Login/Register
-      </button>
     </div>
   );
 }
